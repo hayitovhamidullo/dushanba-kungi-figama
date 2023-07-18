@@ -1,0 +1,26 @@
+ul {
+  padding: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #2A2A2A;
+}
+
+html {
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,171 @@
+header{
+    .container{
+        max-width: 430px;
+        padding: 27px 35px 36px 35px;
+        margin: 0 auto;
+        h1{
+            text-align: center;
+            font-size: 37.9px;
+            font-weight: 600;
+            line-height: 47px; 
+            margin-top: 64px;
+            margin-bottom: 17px;
+        }
+        h2{
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
+            margin-bottom: 33px;
+        }
+        .join_now{
+            display: flex;
+            width: 211px;
+            height: 56px;
+            padding: 16px;
+            justify-content: center;
+            align-items: flex-end;
+            border-radius: 67px;
+            background:  #285E67;
+            margin: 0 auto;
+            border: none;
+            a{
+                color: #fff;
+                text-align: center;
+                font-size: 21.33px;
+                font-weight: 600;
+                line-height: 24px; 
+
+            }
+        }
+        .haeder_img{
+            margin-top: 56px;
+            ul{
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+                li{
+                    img{
+                        max-width: 356px;
+                        max-height: 391px;
+                    }
+                }
+            }
+        }
+    }
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    .navbar_left{
+       max-width: 91px;
+       height: 21px;
+    }
+    .navbar_right{
+        display: none;
+    }
+    .bars{
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    header{
+        .container{
+            max-width: 1025px;
+            margin: 0 auto;
+            padding: 32px 70px 80px 70px;
+            h1{
+                text-align: center;
+                font-size: 65.34px;
+                font-weight: 600;
+                line-height: 82px; 
+            }
+            h2{
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                max-width: 662px;
+                margin: 0 auto;
+                padding-bottom: 33px;
+            }
+            .join_now{
+                display: flex;
+                width: 251px;
+                height: 56px;
+                padding: 16px;
+                justify-content: center;
+                align-items: flex-end;
+                margin: 0 auto;
+                a{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 21.33px;
+                    font-weight: 600;
+                    line-height: 24px;
+                }
+            }
+            .haeder_img{
+                ul{
+                    display: flex;
+                    column-gap: 28px;
+                    flex-direction: row;
+                    li{
+                        img{
+                            max-width: 427px;
+                            max-height: 391px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    nav{
+        .navbar_right{
+            display: inline-block;
+            ul{
+                display: flex;
+                column-gap: 40px;
+                li{
+                    a{
+                        color: #2B2B2B;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px; 
+                    }
+                }
+            }
+        }
+        .bars{
+            display: none;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    header{
+        .container{
+            max-width: 1440px;
+            h2{
+                max-width: 1440px;
+            }
+            .haeder_img{
+                ul{
+                    column-gap: 48px;
+                    li{
+                        img{
+                            max-width: 626px;
+                            max-height: 391px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

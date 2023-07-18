@@ -1,0 +1,104 @@
+.Section_5 {
+  margin-top: 40px;
+}
+.Section_5 .container_section_5 {
+  max-width: 430px;
+  height: 354px;
+  background-image: url(../imges/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: -120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+  border-radius: 12px;
+}
+.Section_5 .container_section_5 .tabiyat {
+  max-width: 46.558px;
+  margin: 0 auto;
+  padding-top: 72px;
+}
+.Section_5 .container_section_5 .tabiyat img {
+  max-height: 41.474px;
+}
+.Section_5 .container_section_5 h2 {
+  color: #FFF;
+  max-width: 200px;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 31px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Section_5 .container_section_5 p {
+  display: none;
+}
+.Section_5 .container_section_5 .Join {
+  display: flex;
+  width: 198px;
+  height: 46px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 67px;
+  border: 1px solid #F4F4F4;
+  background: none;
+}
+.Section_5 .container_section_5 .Join a {
+  color: #FFF;
+  text-align: center;
+  font-size: 16.33px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 1025px) {
+  .Section_5 .container_section_5 {
+    max-width: 1025px;
+    padding: 70px 0;
+    background-position: 0px;
+    height: 667px;
+    row-gap: 45px;
+  }
+  .Section_5 .container_section_5 .tabiyat img {
+    max-width: 92.116px;
+    max-height: 82.057px;
+  }
+  .Section_5 .container_section_5 h2 {
+    max-width: 600px;
+    font-size: 37.9px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  .Section_5 .container_section_5 p {
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 587px;
+    margin: 0 auto;
+  }
+  .Section_5 .container_section_5 .Join {
+    display: flex;
+    width: 257px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Section_5 .container_section_5 .Join a {
+    text-align: center;
+    font-size: 21.33px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .Section_5 .container_section_5 {
+    max-width: 1440px;
+  }
+}/*# sourceMappingURL=section_5.css.map */

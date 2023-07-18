@@ -1,0 +1,33 @@
+ul {
+  padding: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aqua;
+}
+header .container {
+  background-color: wheat;
+  max-width: 430px;
+  padding: 27px 35px 36px 35px;
+  margin: 0 auto;
+}
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+}
+header .container nav .navbar_left {
+  max-width: 91px;
+  height: 21px;
+}
+header .container nav .navbar_right {
+  display: none;
+}
+header .container nav .bars p {
+  font-size: 20px;
+}/*# sourceMappingURL=stayil.css.map */

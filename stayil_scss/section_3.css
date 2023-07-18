@@ -1,0 +1,124 @@
+.Section_3 .container_Section_4 {
+  max-width: 430px;
+  padding: 36px 0 36px 0;
+  margin: 0 auto;
+}
+.Section_3 .container_Section_4 .plants {
+  margin-bottom: 23px;
+  flex: 1;
+}
+.Section_3 .container_Section_4 .plants img {
+  max-width: 100%;
+  max-height: 578px;
+}
+.Section_3 .container_Section_4 .fresh {
+  flex: 1;
+}
+.Section_3 .container_Section_4 .fresh h2 {
+  text-align: center;
+  font-size: 39.7px;
+  font-weight: 600;
+  line-height: 49px;
+  padding-bottom: 16px;
+}
+.Section_3 .container_Section_4 .fresh h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Section_3 .container_Section_4 .fresh ul {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+.Section_3 .container_Section_4 .fresh ul li {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 23px;
+       column-gap: 23px;
+}
+.Section_3 .container_Section_4 .fresh ul li img {
+  width: 52px;
+  height: 52px;
+}
+.Section_3 .container_Section_4 .fresh ul li span {
+  color: #285E67;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 1025px) {
+  .Section_3 .container_Section_4 {
+    max-width: 1025px;
+    padding: 80px 70px;
+    margin: 0 auto;
+    display: flex;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+    align-items: center;
+  }
+  .Section_3 .container_Section_4 .plants img {
+    max-width: 100%;
+  }
+  .Section_3 .container_Section_4 .fresh {
+    max-width: 632px;
+    text-align: start;
+  }
+  .Section_3 .container_Section_4 .fresh h2 {
+    font-size: 50.52px;
+    font-weight: 600;
+    line-height: 62px;
+    max-width: 430px;
+    text-align: start;
+  }
+  .Section_3 .container_Section_4 .fresh h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+  }
+  .Section_3 .container_Section_4 .fresh ul {
+    margin-top: 54px;
+    row-gap: 54px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .Section_3 .container_Section_4 {
+    max-width: 1440px;
+    padding: 80px 70px;
+    margin: 0 auto;
+    display: flex;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+    align-items: center;
+  }
+  .Section_3 .container_Section_4 .plants img {
+    width: 623.5px;
+    height: 578px;
+  }
+  .Section_3 .container_Section_4 .fresh {
+    text-align: start;
+  }
+  .Section_3 .container_Section_4 .fresh h2 {
+    font-size: 50.52px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: start;
+    max-width: 623px;
+  }
+  .Section_3 .container_Section_4 .fresh h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+    max-width: 623px;
+  }
+  .Section_3 .container_Section_4 .fresh ul {
+    max-width: 623px;
+    margin-top: 54px;
+    row-gap: 53px;
+  }
+}/*# sourceMappingURL=section_3.css.map */
