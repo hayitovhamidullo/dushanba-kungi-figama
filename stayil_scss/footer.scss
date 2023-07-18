@@ -2,7 +2,7 @@ footer{
     background-color: #285E67;
     .footere_container{
         padding: 78px 139px;
-        max-width: 460PX;
+        max-width: 90%;
         margin: 0 auto;
         .footer_right{
             width: 88px;
@@ -39,7 +39,7 @@ footer{
 @media screen and (min-width:   1025px){
     footer{
         .footere_container{
-            max-width: 1025px;
+            max-width: 90%;
             padding: 78px 139px;
             .footer_right{
                 max-width: 88px;
@@ -59,7 +59,7 @@ footer{
 @media screen and (min-width:   1440px){
     footer{
         .footere_container{
-            max-width: 1440px;
+            max-width: 90%;
             padding: 78px 139px;
             .footer_about{
                 display: flex;

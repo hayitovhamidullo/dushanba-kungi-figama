@@ -26,7 +26,7 @@ ul {
 }
 
 header .container {
-  max-width: 430px;
+  width: 90%;
   padding: 27px 35px 36px 35px;
   margin: 0 auto;
 }
@@ -95,7 +95,7 @@ nav .bars p {
 
 @media screen and (min-width: 1025px) {
   header .container {
-    max-width: 1025px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 32px 70px 80px 70px;
   }
@@ -104,6 +104,7 @@ nav .bars p {
     font-size: 65.34px;
     font-weight: 600;
     line-height: 82px;
+    margin-top: 59px;
   }
   header .container h2 {
     text-align: center;
@@ -158,7 +159,10 @@ nav .bars p {
 }
 @media screen and (min-width: 1440px) {
   header .container {
-    max-width: 1440px;
+    max-width: 90%;
+  }
+  header .container h1 {
+    margin-top: 140px;
   }
   header .container h2 {
     max-width: 1440px;
@@ -172,7 +176,7 @@ nav .bars p {
   }
 }
 .Section_2 .container {
-  max-width: 430px;
+  max-width: 90%;
   padding: 64px 35px 32px 35px;
   border-radius: 12px;
   background-color: #F4F4F4;
@@ -223,7 +227,7 @@ nav .bars p {
     margin-bottom: 80px;
   }
   .Section_2 .container {
-    max-width: 1025px;
+    max-width: 90%;
     padding: 64px 112px;
   }
   .Section_2 .container h2 {
@@ -259,7 +263,7 @@ nav .bars p {
     margin-bottom: 80px;
   }
   .Section_2 .container {
-    max-width: 1440px;
+    max-width: 90%;
     padding: 0px 112px;
   }
   .Section_2 .container h2 {
@@ -304,7 +308,7 @@ nav .bars p {
   }
 }
 .Section_3 .container_Section_4 {
-  max-width: 430px;
+  max-width: 90%;
   padding: 36px 0 36px 0;
   margin: 0 auto;
 }
@@ -356,7 +360,7 @@ nav .bars p {
 
 @media screen and (min-width: 1025px) {
   .Section_3 .container_Section_4 {
-    max-width: 1025px;
+    max-width: 90%;
     padding: 80px 70px;
     margin: 0 auto;
     display: flex;
@@ -390,7 +394,7 @@ nav .bars p {
 }
 @media screen and (min-width: 1440px) {
   .Section_3 .container_Section_4 {
-    max-width: 1440px;
+    max-width: 90%;
     padding: 80px 70px;
     margin: 0 auto;
     display: flex;
@@ -428,7 +432,7 @@ nav .bars p {
   margin-top: 35px;
 }
 .Section_4 .container_Section_4 {
-  max-width: 430px;
+  max-width: 90%;
   padding: 64px 35px 64px 35px;
   margin: 0 auto;
   background-color: #F4F4F4;
@@ -481,7 +485,7 @@ nav .bars p {
 
 @media screen and (min-width: 1025px) {
   .Section_4 .container_Section_4 {
-    max-width: 1025px;
+    max-width: 90%;
     padding: 56px 110px 56px 114px;
     margin: 0 auto;
   }
@@ -507,7 +511,7 @@ nav .bars p {
 }
 @media screen and (min-width: 1440px) {
   .Section_4 .container_Section_4 {
-    max-width: 1440px;
+    max-width: 90%;
     padding: 56px 110px 56px 114px;
     margin: 0 auto;
     display: flex;
@@ -549,7 +553,7 @@ nav .bars p {
   margin-top: 40px;
 }
 .Section_5 .container_section_5 {
-  max-width: 430px;
+  max-width: 90%;
   height: 354px;
   background-image: url(../imges/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
   background-repeat: no-repeat;
@@ -604,7 +608,7 @@ nav .bars p {
 
 @media screen and (min-width: 1025px) {
   .Section_5 .container_section_5 {
-    max-width: 1025px;
+    max-width: 90%;
     padding: 70px 0;
     background-position: 0px;
     height: 667px;
@@ -646,7 +650,7 @@ nav .bars p {
 }
 @media screen and (min-width: 1440px) {
   .Section_5 .container_section_5 {
-    max-width: 1440px;
+    max-width: 90%;
   }
 }
 .Section_6 {
@@ -654,7 +658,7 @@ nav .bars p {
   margin-bottom: 69PX;
 }
 .Section_6 .container_Section_6 {
-  max-width: 298px;
+  max-width: 90%;
   margin: 0 auto;
   background-color: #FCE2D7;
   border-radius: 12px;
@@ -687,7 +691,7 @@ nav .bars p {
     margin-top: -66px;
   }
   .Section_6 .container_Section_6 {
-    max-width: 743px;
+    max-width: 90%;
     padding: 71px 66px;
     align-items: center;
   }
@@ -700,7 +704,7 @@ nav .bars p {
 }
 @media screen and (min-width: 1440px) {
   .Section_6 .container_Section_6 {
-    max-width: 1165px;
+    max-width: 90%;
     padding: 119px 66px;
     flex-wrap: wrap;
   }
@@ -718,7 +722,7 @@ footer {
 }
 footer .footere_container {
   padding: 78px 139px;
-  max-width: 460PX;
+  max-width: 90%;
   margin: 0 auto;
 }
 footer .footere_container .footer_right {
@@ -752,7 +756,7 @@ footer .footere_container .footer_icon .footer_icons li {
 
 @media screen and (min-width: 1025px) {
   footer .footere_container {
-    max-width: 1025px;
+    max-width: 90%;
     padding: 78px 139px;
   }
   footer .footere_container .footer_right {
@@ -767,7 +771,7 @@ footer .footere_container .footer_icon .footer_icons li {
 }
 @media screen and (min-width: 1440px) {
   footer .footere_container {
-    max-width: 1440px;
+    max-width: 90%;
     padding: 78px 139px;
   }
   footer .footere_container .footer_about {
