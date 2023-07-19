@@ -14,6 +14,7 @@ footer{
                 display: grid;
                 grid-template-columns: repeat(2,1fr);
                 row-gap: 36px;
+                column-gap: 20px;
                 li{
                     a{
                         color: #FFF;
@@ -47,9 +48,8 @@ footer{
             }
             .footer_left{
                 .footer_about{
-                    display: grid;
-                    grid-template-columns: repeat(4,100px);
-                    text-align: start;
+                    display: flex;
+                    column-gap: 40px;
                 }
             }
         }
@@ -59,7 +59,7 @@ footer{
 @media screen and (min-width:   1440px){
     footer{
         .footere_container{
-            max-width: 90%;
+            max-width: 1440px;
             padding: 78px 139px;
             .footer_about{
                 display: flex;

@@ -47,7 +47,8 @@ header{
                 row-gap: 15px;
                 li{
                     img{
-                        max-width: 356px;
+                        max-width: 100%;
+                        margin: 0 auto;
                         max-height: 391px;
                     }
                 }
@@ -117,7 +118,8 @@ nav{
                     flex-direction: row;
                     li{
                         img{
-                            max-width: 427px;
+                            max-width: 100%;
+                            margin: 0 auto;
                             max-height: 391px;
                         }
                     }
@@ -152,7 +154,7 @@ nav{
 @media screen and (min-width: 1440px){
     header{
         .container{
-            max-width: 90%;
+            max-width: 1440px;
             h1{
                 margin-top: 140px;
             }
@@ -164,8 +166,9 @@ nav{
                     column-gap: 48px;
                     li{
                         img{
-                            max-width: 626px;
+                            max-width: 100%;
                             max-height: 391px;
+                            margin: 0 auto;
                         }
                     }
                 }
